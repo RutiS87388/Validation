@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#password {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
