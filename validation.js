@@ -8,14 +8,14 @@ function checkPasswordStrength() {
     const hasDigit = /\d/.test(password);
     const hasMinLength = password.length >= 8;
 
-    const noRepeatingChars = !(/(.)\1\1/.test(password)); // No character repeated more than twice
-    const noSequences = !/(abc|123|xyz)/i.test(password); // No sequences like abc, xyz, 123
+    const noRepeatingChars = !(/(.)\1\1/.test(password)); 
+    const noSequences = !/(abc|123|xyz)/i.test(password); 
 
     if (hasLowerCase && hasUpperCase && hasSpecialChar && hasDigit && hasMinLength && noRepeatingChars && noSequences) {
-        resultElement.textContent = "Password is strong!";
+        resultElement.textContent = "Password is strong! well done!!!!!!!! ruti";
         resultElement.style.color = "green";
     } else {
-        resultElement.textContent = "Password is weak!";
+        resultElement.textContent = "Password is weak! try again!!!!!!!! ruti ";
         resultElement.style.color = "red";
     }
 }
