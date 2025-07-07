@@ -1,3 +1,4 @@
+
 function checkPasswordStrength() {
     const password = document.getElementById('password').value;
     const resultElement = document.getElementById('result');
