@@ -16,7 +16,7 @@ function checkPasswordStrength() {
         resultElement.textContent = "Password is strong! ruti";
         resultElement.style.color = "green";
     } else {
-        resultElement.textContent = "Password is weak!";
+        resultElement.textContent = "Password is weak!!";
         resultElement.style.color = "red";
     }
 }
