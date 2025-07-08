@@ -13,7 +13,7 @@ function checkPasswordStrength() {
     const noSequences = !/(abc|123|xyz)/i.test(password); // No sequences like abc, xyz, 123
 
     if (hasLowerCase && hasUpperCase && hasSpecialChar && hasDigit && hasMinLength && noRepeatingChars && noSequences) {
-        resultElement.textContent = "Password is strong!";
+        resultElement.textContent = "Password is strong! ruti";
         resultElement.style.color = "green";
     } else {
         resultElement.textContent = "Password is weak!";
